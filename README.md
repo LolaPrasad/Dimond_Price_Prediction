@@ -2,8 +2,8 @@
 
 # First initialize the git = git init
 
-# Git add abc.txt (To add a file)
+Git add abc.txt (To add a file)
 
-# git add.
+git add.
 
-# git commit -m "This is my first commit"
+git commit -m "This is my first commit"
