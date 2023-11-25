@@ -7,3 +7,7 @@ Git add abc.txt (To add a file)
 git add.
 
 git commit -m "This is my first commit"
+
+# for shell scripting 
+
+bash your_file_name.sh
