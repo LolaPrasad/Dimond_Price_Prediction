@@ -9,4 +9,3 @@ class ModelTrainer:
     
     def initiate_model_training(self):
         pass
-    
