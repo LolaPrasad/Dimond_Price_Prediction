@@ -4,4 +4,6 @@ numpy
 ipykernel
 seaborn
 matplotlib
+datetime
+logging
 -e .
