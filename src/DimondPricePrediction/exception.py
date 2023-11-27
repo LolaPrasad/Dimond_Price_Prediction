@@ -4,9 +4,9 @@ class customexception(Exception):
     def __init__(self,error_message,error_details:sys):
         self.error_message=error_message   # which line no ,file,module i am getting the error and error message
         _,_,exc_tb=error_details.exc_info()  # It provide the detailed against the error
-
-        self.line_no=exc_tb.tb_lineno
-        self.file_name=exc_tb.tb_frame.f_code.co_filename
+        
+        self.line_no=exc_tb.tb_lineno  # it return line no
+        self.file_name=exc_tb.tb_frame.f_code.co_filename  ## it gives us file name
     
     def __str__(self):
         return "Error occured in python script name [{0}] line number [{1}] error message [{2}]".format(
