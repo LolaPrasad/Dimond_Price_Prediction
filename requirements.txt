@@ -6,4 +6,6 @@ seaborn
 matplotlib
 datetime
 logging
+Flask
+
 -e .
