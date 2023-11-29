@@ -1,22 +1,71 @@
-# This is my end to end project
+# this is my end to end project
 
-# First initialize the git = git init
+# first initialize the git
 
-Git add abc.txt (To add a file)
+```
+git init
+```
 
-git add.
+```
+git add abc.txt
+git add .
+```
+```
+git commit -m "this is my first commit"
+```
 
-git commit -m "This is my first commit"
+```
 
-# for shell scripting 
+git pull
 
+```
+### for shell scripting
+```
 bash your_file_name.sh
+```
 
-### To run setup.py file (download or install your own package)
-
+```
 python setup.py install
+```
 
-###### another way you can mention -e . in your requirements.txt file and can run 
+# another way you can mention -e . in your requirement file and you can run
 
+```
 pip install -r requirements.txt
+```
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### local cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/LolaPrasad/Dimond_Price_Prediction.mlflow \
+MLFLOW_TRACKING_USERNAME=LolaPrasad \
+MLFLOW_TRACKING_PASSWORD=b3dd566df7aa0993bd001ce80436a98f1df03907 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/LolaPrasad/Dimond_Price_Prediction.mlflow
+
+export MLFLOW_TRACKING_USERNAME=LolaPrasad
+
+export MLFLOW_TRACKING_PASSWORD=b3dd566df7aa0993bd001ce80436a98f1df03907
+
+```
+
+
+### DVC cmd
+- dvc init
+- dvc repro
+- dvc dag
 
